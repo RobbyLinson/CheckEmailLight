@@ -1,5 +1,3 @@
-# CheckEmailLight
-
 ![CheckEmailLight](assets/checkemaillight-logo.svg)
 
 An automated inbox digest tool that reads your Gmail, scores each email for sentiment and urgency, and delivers a structured catch-up summary as a Windows toast notification and an HTML email.
