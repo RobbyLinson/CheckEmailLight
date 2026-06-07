@@ -1,5 +1,7 @@
 # CheckEmailLight
 
+![CheckEmailLight](assets/checkemaillight-logo.svg)
+
 An automated inbox digest tool that reads your Gmail, scores each email for sentiment and urgency, and delivers a structured catch-up summary as a Windows toast notification and an HTML email.
 
 ---
@@ -110,12 +112,12 @@ CheckEmailLight/
 
 ## Environment variables reference
 
-| Variable | Description |
-|---|---|
-| `ANTHROPIC_API_KEY` | Anthropic API key for Claude Haiku |
-| `RESEND_API_KEY` | Resend API key for outbound email |
-| `GOOGLE_CLIENT_ID` | OAuth 2.0 client ID from Google Cloud Console |
-| `GOOGLE_CLIENT_SECRET` | OAuth 2.0 client secret |
+| Variable               | Description                                    |
+| ---------------------- | ---------------------------------------------- |
+| `ANTHROPIC_API_KEY`    | Anthropic API key for Claude Haiku             |
+| `RESEND_API_KEY`       | Resend API key for outbound email              |
+| `GOOGLE_CLIENT_ID`     | OAuth 2.0 client ID from Google Cloud Console  |
+| `GOOGLE_CLIENT_SECRET` | OAuth 2.0 client secret                        |
 | `GOOGLE_REFRESH_TOKEN` | Long-lived refresh token (from `get_token.py`) |
 
 ---

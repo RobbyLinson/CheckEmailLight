@@ -1,0 +1,40 @@
+<svg width="560" height="220" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CheckEmailLight logo">
+  <defs>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- envelope template: body + flap, drawn three times in three colors -->
+  <!-- GREEN: calm -->
+  <g transform="translate(70,60)">
+    <circle cx="48" cy="44" r="58" fill="#16a34a" opacity="0.16"/>
+    <g filter="url(#glow)">
+      <rect x="6" y="14" width="84" height="60" rx="10" fill="none" stroke="#16a34a" stroke-width="6"/>
+      <path d="M9 20 L48 50 L87 20" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- AMBER: busy -->
+  <g transform="translate(232,60)">
+    <circle cx="48" cy="44" r="58" fill="#f59e0b" opacity="0.16"/>
+    <g filter="url(#glow)">
+      <rect x="6" y="14" width="84" height="60" rx="10" fill="none" stroke="#f59e0b" stroke-width="6"/>
+      <path d="M9 20 L48 50 L87 20" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- RED: on fire -->
+  <g transform="translate(394,60)">
+    <circle cx="48" cy="44" r="58" fill="#dc2626" opacity="0.16"/>
+    <g filter="url(#glow)">
+      <rect x="6" y="14" width="84" height="60" rx="10" fill="none" stroke="#dc2626" stroke-width="6"/>
+      <path d="M9 20 L48 50 L87 20" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <text x="280" y="190" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="30" font-weight="700" fill="#e5e7eb" letter-spacing="0.5">
+    Check<tspan fill="#9ca3af">Email</tspan>Light
+  </text>
+</svg>
