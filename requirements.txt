@@ -1,0 +1,11 @@
+langchain
+langchain-anthropic
+pydantic
+transformers
+torch
+python-dotenv
+resend
+winotify
+google-auth-oauthlib
+google-api-python-client
+google-auth
